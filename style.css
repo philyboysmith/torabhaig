@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'Alte-Haas-Grotesk';
+    src:  url('fonts/Alte-Haas-Grotesk.ttf.woff') format('woff'),
+    url('fonts/Alte-Haas-Grotesk.ttf.svg#Alte-Haas-Grotesk') format('svg'),
+    url('fonts/Alte-Haas-Grotesk.ttf.eot'),
+    url('fonts/Alte-Haas-Grotesk.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family:"Alte Haas Grotesk Bold";
+	src:url("fonts/AlteHaasGroteskBold.eot?") format("eot"),
+	url("fonts/AlteHaasGroteskBold.woff") format("woff"),
+	url("fonts/AlteHaasGroteskBold.ttf") format("truetype"),
+	url("fonts/AlteHaasGroteskBold.svg#AlteHaasGrotesk_Bold") 
+	format("svg");font-weight:normal;font-style:normal;}
+
+body {
+  color:#231F20;
+  font-family: 'Alte-Haas-Grotesk';
+}
+
+strong {
+  font-family:"Alte Haas Grotesk Bold";
+}
+
+a {
+color:#231F20;
+text-decoration: none;}
+
+.logo {
+	width: 60%;
+	max-width: 320px;
+	margin: 3em auto;
+}
+
+p {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	line-height: 1.33;
+}
+
+@media screen and (min-width: 500px){
+	p {
+		font-size: 20px
+	}
+	.st0 {
+		opacity: 0.9;
+	}
+
+}
+
+.carousel {
+	width: 100%;
+}
+
+.carousel__item {
+	background-size: cover;
+	background-position: center center;
+	height: 50vh;
+	min-height: 200px;
+}
+
+@media screen and (min-width: 500px){
+	.logo {
+		position: absolute;
+		z-index: 10;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		margin: 0;
+	}
+	.carousel__item {
+		height: 100vh;
+	}
+}
+
+.slick-arrow {
+	display: none!important;
+}
+
+.grid,
+.grid img {
+	width: 100%;
+}
+
+.grid--desktop {
+	display: none;
+}
+
+@media screen and (min-width: 500px){
+.grid--mobile {
+	display: none;
+}
+.grid--desktop {
+	display: block;
+}
+}
+
+
+
+hr {
+	border: 0;
+	background: transparent;
+	border-top: 1px solid #881002;
+}
+
+.container {
+	width: 47%;
+	margin: 3em auto;
+	max-width: 560px;
+	text-align: center;
+}
+
+.container--narrow {
+	max-width: 320px;
+}
