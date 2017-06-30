@@ -113,7 +113,10 @@ hr {
 	margin: 5em auto;
 	max-width: 430px;
 	text-align: center;
-	@media screen and (min-width: 500px){
+}
+
+@media screen and (min-width: 500px){
+	.container {
 		margin: 6.5em auto;
 	}
 }
