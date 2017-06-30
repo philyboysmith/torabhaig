@@ -39,10 +39,13 @@ p {
 	margin-bottom: 1em;
 	line-height: 1.33;
 }
+p:last-child {
+	margin-bottom: 0;
+}
 
 @media screen and (min-width: 500px){
 	p {
-		font-size: 20px
+		font-size: 18px
 	}
 	.st0 {
 		opacity: 0.9;
@@ -107,11 +110,11 @@ hr {
 
 .container {
 	width: 68%;
-	margin: 3em auto;
+	margin: 5em auto;
 	max-width: 520px;
 	text-align: center;
 }
 
 .container--narrow {
-	max-width: 320px;
+	max-width: 12em;
 }
